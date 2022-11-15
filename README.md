@@ -1,5 +1,4 @@
-# Fall2022AI
-## School Coursework 1 - Artificial Intelligence
+# Fall2022AI - HW1
 ### 8-puzzle game
 **Goal**: Take random start board to the board [[0,1,2],[3,4,5],[6,7,8]] <br />
 <br />
