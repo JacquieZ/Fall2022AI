@@ -1,5 +1,5 @@
 # Fall2022AI
-### 8-puzzle game
+## 8-puzzle game
 **Goal**: Take random start board to the board [[0,1,2],[3,4,5],[6,7,8]] <br />
 <br />
 **Algorithms**: Breadth-First Search, Depth-First Search, A-star Search <br />
@@ -9,13 +9,13 @@
 be equal to the number of moves made. <br />
 - For A_star Search, the heuristic cost function is specified by the manhattan distance.
 
-### Sudoku
+## Sudoku
 **Goal**: Finish 9*9 sudoku game <br /> where rows denoted as A through I and columns denoted as 1 through 9
 <br />
 **Algorithms**: Backtracking Search using the minimum remaining value (MRV) heuristic and Forward Checking (FC) to reduce variables domains<br />
 <br />
 
-### 2048
+## 2048
 **Introduction**: Treat 2048 as a two-player game in which Computer AI places tiles with a 90% probability of a 2 and 10% for a 4 and the Intelligent Player moves them. 
 **Goal**: Reach as large number as possible before the board is full<br />
 <br />
