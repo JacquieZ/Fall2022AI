@@ -20,6 +20,7 @@ be equal to the number of moves made. <br />
 **Goal**: Reach as large number as possible before the board is full
 <br />
 **Algorithms**: Expectminimax, Alpha-Beta Pruning <br />
+**File Description**:<br />
 - GameManager.py: driver program that loads Computer AI and Player AI and
 begins a game where they compete with each other.
 - Grid.py: module defines the Grid object.
@@ -27,7 +28,8 @@ begins a game where they compete with each other.
 implement the getMove() function, which takes a Grid object as parameter and returns a move.
 - ComputerAI.py: This inherits from BaseAI. The getMove() function returns a computer
 action that is a tuple (x, y) indicating the place you want to place a tile.
-- **IntelligentAgent.py**: inherit from BaseAI where the getMove() function returns a number that indicates the player’s action. In particular, 0 stands for ”Up”, 1 stands for ”Down”, 2 stands for ”Left”, and 3 stands for ”Right”. 
+- IntelligentAgent.py: inherit from BaseAI where the getMove() function returns a number that indicates the player’s action. In particular, 0 stands for ”Up”, 1 stands for ”Down”, 2 stands for ”Left”, and 3 stands for ”Right”. 
 - BaseDisplayer.py and Displayer.py: print the grid.
 <br />
-In expectminimax algorithm, if it takes too long to reach the utility value, it will change to use heuristic function as utility of the node in the middle. The heuristic function used in **IntelligentAgent.py** includes Empty Value Heuristic, Monotonicity Heuristic, Max Value Heuristic, Large number on corner Heuristic, Smoothness Heuristic. Some of the interpretations of the heuristics used can be found [here](https://stackoverflow.com/questions/22342854/what-is-the-optimal-algorithm-for-the-game-2048).
+In expectminimax algorithm, if it takes too long to reach the utility value, it will change to use heuristic function as utility of the node in the middle. The heuristic function used in *IntelligentAgent.py* includes Empty Value Heuristic, Monotonicity Heuristic, Max Value Heuristic, Large number on corner Heuristic, Smoothness Heuristic. Some of the interpretations of the heuristics used can be found [here](https://stackoverflow.com/questions/22342854/what-is-the-optimal-algorithm-for-the-game-2048)
+*note: IntelligentAgent.py is the one that the author wrote
