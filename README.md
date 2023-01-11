@@ -1,0 +1,1 @@
+To build a hand gesture classifier for sign language, I used three Conv2D layer, three MaxPooling2D, and three Dropout with 0.2 following each other one at a time. Repeat this pattern for 3 times, and then Flatten, Dense with Relu with different filter number, then another Dropout, and finally Dense with softmax.
