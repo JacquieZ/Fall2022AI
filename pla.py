@@ -3,7 +3,6 @@ import numpy as np
 import sys
 
 def main():
-    '''YOUR CODE GOES HERE'''
 
     def f(weights,x):
         sum = 0
@@ -42,5 +41,4 @@ def main():
 
 
 if __name__ == "__main__":
-    """DO NOT MODIFY"""
     main()
