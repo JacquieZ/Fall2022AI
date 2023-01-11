@@ -6,7 +6,6 @@ from plot_db import visualize_3d,visualize_scatter
 
 def main():
     """
-    YOUR CODE GOES HERE
     Implement Linear Regression using Gradient Descent, with varying alpha values and numbers of iterations.
     Write to an output csv file the outcome betas for each (alpha, iteration #) setting.
     Please run the file as follows: python3 lr.py data2.csv, results2.csv
